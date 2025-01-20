@@ -1,28 +1,12 @@
 package main
 
-import "fmt"
-
-type Shaper interface {
-	Area() float32
+type LogicProvider struct {
 }
 
-type Square struct {
-	side float32
+type Logic interface {
+	Process(data string) string
 }
 
-func (sq *Square) Area() float32 {
-	return sq.side * sq.side
-}
-
-func interfaceTest() {
-	sq1 := new(Square)
-	sq1.side = 5
-
-	var areaIntf Shaper
-	areaIntf = sq1
-	// shorter,without separate declaration:
-	// areaIntf := Shaper(sq1)
-	// or even:
-	// areaIntf := sq1
-	fmt.Printf("The square has area: %f\n", areaIntf.Area())
+type Client struct {
+	L Logic
 }
