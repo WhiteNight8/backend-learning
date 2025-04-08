@@ -115,6 +115,18 @@ new返回指针
 
 
 
+## session和数据存储
+
+### session和cookie
+
+### Go如何使用session
+
+### session存储
+
+### 预防session劫持
+
+
+
 
 
 
