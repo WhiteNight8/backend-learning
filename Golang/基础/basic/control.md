@@ -66,3 +66,57 @@ import
 
 
 
+## Socket编程
+
+### 什么是socket
+
+起源于unix
+
+### socket如何通信
+
+### socket基础知识
+
+### TCP socket
+
+
+
+## Websocket
+
+## REST
+
+## RPC
+
+
+
+## 安全与加密
+
+### 预防CSRF
+
+### 确保输入过滤
+
+### 避免XSS攻击
+
+### 避免SQL注入
+
+### 存储密码
+
+### 加密和解密数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
